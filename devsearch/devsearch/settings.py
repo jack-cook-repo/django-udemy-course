@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-f90!*#x-dl@3+*wjnss2-f4rr(8rg=_ny*t51-h%n&=e%1ry!-'
+SECRET_KEY = 'django-insecure-=+rjkf1)+6o(tv+ery1ku0+f2u&!q*fedanmt^u-dr%+q$st(e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'projects.apps.ProjectsConfig'  # makes devsearch project aware of this app
+    'projects.apps.ProjectsConfig'  # Let devsearch project know that this app exists
 ]
 
 MIDDLEWARE = [

@@ -19,10 +19,9 @@ from django.http import HttpResponse
 
 
 def get_projects(request):
-    return HttpResponse('Example response')
+    return HttpResponse('Example response!')
 
 
-# URL routing system for the application
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('projects/', get_projects, name='projects')
