@@ -1,5 +1,9 @@
 {% extends 'main.html' %}
 
 {% block content %}
-    <h2>Single project template</h2>
+
+<h1>{{ project.title }}</h1>
+<br>
+<p>Project ID: {{ project.id }} -- description: {{ project.description }}</p>
+
 {% endblock content %}
